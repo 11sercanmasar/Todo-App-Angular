@@ -1,8 +1,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-5 mx-auto">
-            <h3 class="bg-primary text-white p-3 ">{{getName()}} Todo List</h3>
+        <div class="col-5 mx-auto wrapper rounded">
+            <h3 class="bg-primary text-white p-2 rounded mt-3">{{getName()}} Todo List</h3>
             <div class="input-group mb-3">
                 <input 
                 type="text" 
@@ -14,7 +14,7 @@
             <button 
                 [class]= "getBtnClasses()"
                 class="btn" 
-                (click)="addItem(); " 
+                (click)="addItem();" 
                 type="button"
                 >
                 Add todo

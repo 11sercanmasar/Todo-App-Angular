@@ -6,7 +6,7 @@ export class Models{
     items :TodoItem[];
 
     constructor(){
-        this.name = "Sercan";
+        this.name = "Modern";
         this.items = [
     {  description :"kahvaltı", action: true },
     {  description :"spor", action: true },
