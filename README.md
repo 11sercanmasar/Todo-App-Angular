@@ -1,6 +1,7 @@
 # TodoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0. Created one todo component and used local storage to keep
+the todos UI. You can show all the todos if you want also show uncompleted todo/todos via showall checkbox.
 
 ## View 
 
